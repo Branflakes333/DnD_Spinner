@@ -39,5 +39,4 @@ def test__eq__():
     test_spinner_1 = Spinner(test_probs)
     test_spinner_2 = Spinner(test_probs)
     assert test_spinner_1 == test_spinner_2
-# Tree Tests
-# WIP
+    

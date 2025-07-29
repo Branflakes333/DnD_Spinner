@@ -32,16 +32,16 @@ test_mapping = {
 def test_Node_init_():                                   
     global test_probs_1
     global test_mapping
-    test_node = Node(spinner_probs=test_probs_1,result_mapping=test_mapping)
+    test_node = Node(spinner=Spinner(test_probs_1),result_mapping=test_mapping)
     test_spinner = Spinner(test_probs_1)
-    assert test_node.spinner == test_spinner        # Both assertions are broken, believe it's both due to Spinner.__eq__()
+    assert test_node.spinner == test_spinner
     assert test_node.result_mapping == test_mapping 
 
 def test_update_mapping():
     global test_probs_1
     global test_mapping
-    test_bad_map = {'outcome' : ['Monoclass','Multiclass'], 'destination' : [None,None]}
-    test_node = Node(test_probs_1)
+    # test_bad_map = {'outcome' : ['Monoclass','Multiclass'], 'destination' : [None,None]} # Left over line from making a bad map test <- TODO
+    test_node = Node(Spinner(test_probs_1))
     test_node.update_result_mapping(test_mapping)
     assert test_node.result_mapping == test_mapping
 
@@ -49,17 +49,22 @@ def test_update_spinner_with_rmap():
     global test_probs_1
     global test_probs_2
     global test_mapping
-    test_node = Node(test_probs_2)
+    test_node = Node(Spinner(test_probs_2))
     test_node.update_spinner(Spinner(test_probs_1), test_mapping)
-    test_attr_spin = test_node.spinner == Spinner(test_probs_1)
-    test_attr_rmap = test_node.result_mapping == test_mapping
-    assert test_attr_spin * test_attr_rmap == 1
+    assert test_node.spinner == Spinner(test_probs_1)
+    assert test_node.result_mapping == test_mapping
 
 def test_update_spinner_no_rmap():
     global test_probs_1
     global test_probs_2
     global test_mapping
-    test_node = Node(test_probs_2)
+
+    test_node = Node(Spinner(test_probs_2))
     test_node.update_spinner(Spinner(test_probs_1))
+
+    assert test_node.spinner == Spinner(test_probs_1)
+    assert test_node.result_mapping['outcome'] == ['Monoclass','Multiclass']
+    assert test_node.result_mapping['destination'] == [None, None]
+
 
 # TODO Spinner Tree Tests
