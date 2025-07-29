@@ -33,6 +33,11 @@ def test_update_probabilities():
     test_spinner = Spinner()
     test_spinner.update_probabilities(test_probs)
     assert test_probs == test_spinner.probabilities
-    
+
+def test__eq__():
+    global test_probs
+    test_spinner_1 = Spinner(test_probs)
+    test_spinner_2 = Spinner(test_probs)
+    assert test_spinner_1 == test_spinner_2
 # Tree Tests
 # WIP

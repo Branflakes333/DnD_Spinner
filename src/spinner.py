@@ -7,6 +7,9 @@ class Spinner:
     """
 
     def __init__(self, probs: dict = None) -> None:
+        """
+        Initiate Spinner object with a probability dictionary with defaults
+        """
         DEFAULT_PROBS = {'outcome': ['outcome'], 'probability': [1]}
         
         if check_probabilities(probs):
@@ -34,7 +37,17 @@ class Spinner:
     def update_probabilities(self, new_probabilities: dict) -> None:
         """
         Updates the spinner's probabilities with a new set of probabilities.
+
+        Param:
+        new_probabilities (dict) : A dictionary of probabilities to update spinner's `probabilities` attribute
         """
 
         self.probabilities = new_probabilities if check_probabilities(new_probabilities) else self.probabilities
 
+    def __eq__(self, other):
+        """
+        Allow for `==` conditional/boolean logic
+        """
+        if not isinstance(other, Spinner): 
+            return False
+        return self.probabilities == other.probabilities 

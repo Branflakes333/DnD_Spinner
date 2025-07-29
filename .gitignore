@@ -1,5 +1,6 @@
 TODO.txt
-__pycache__/
+__pycache__
 .pytest_cache/
 src/__pycache__
 test/__pycache__
+*.py[cod]
