@@ -17,10 +17,12 @@ class Node:
         try:
             if not self.__check_Spinner__(spinner): raise TypeError
         except TypeError:
+            print("Warning: Invalid Spinner passed, using default.")
             self.spinner = Spinner() # Default spinner attr
         try:
             if not self.__check_result_mapping__(result_mapping): raise ValueError
         except ValueError:
+            print("Warning: Invalid result mapping passed, using default.")
             self.result_mapping = self.__default_result_mapping__()
 
     def update_spinner(self, new_spinner: Spinner, new_mapping=None) -> None:
@@ -89,6 +91,9 @@ class Node:
         return True # Might add more, but for now it's fine 7/29/25 11:56am
 
     def __eq__(self, other) -> bool: # Will be used in SpinnerTree tests
-        if self.spinner == other.spinner and self.result_mapping == other.result_mapping:
-            return True
-        return False
+        try:
+            return (
+                self.spinner == other.spinner and 
+                self.result_mapping == other.result_mapping
+            )
+        except: return False

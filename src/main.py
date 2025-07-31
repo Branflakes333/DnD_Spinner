@@ -2,30 +2,28 @@
 # currently for testing
 from probability import *
 from spinner import *
+from node import *
 from spinner_tree import *
 
-test_probs_1 = {
+multiclass_decision_node = {
         'outcome' : ['Monoclass','Multiclass'],
-        'probability' : [0.9,0.1]
+        'probability' : [0.01,0.99]
 }
 
-test_probs_2 = {
+class_multiclass_node = {
         'outcome' : [
             'Artificer', 'Barbarian', 'Bard', 'Cleric', 
             'Fighter', 'Monk', 'Paladin', 'Ranger', 'Rogue',
             'Sorcerer', 'Warlock', 'Wizard'],
         'probability' : [
-            0.05,0.05,0.05,0.05,0.05,0.05,0.1,0.1,0.1,0.1,0.1,0.1,0.1
+            0.05,0.05,0.05,0.05,0.05,0.05,0.1,0.1,0.1,0.1,0.1,0.2
             ]
 }
 
-test_mapping = {
-    'outcome' : ['Monoclass','Multiclass'], 
-    'destination' : [None,Node(test_probs_2)]
-}
-test_node = Node(Spinner(test_probs_2))
-print(test_node.result_mapping)
 
 
-test_node.update_spinner(Spinner(test_probs_1))
-print(test_node.result_mapping)
+# test_mapping = {
+#     'outcome' : ['Monoclass','Multiclass'], 
+#     'destination' : [None,test_node_2]
+# }
+

@@ -28,7 +28,9 @@ def check_probabilities(probabilities: dict) -> bool:
         # Check if the probabilities sum to 1
         if not abs(sum(probabilities['probability']) - 1) < 1e-8:
             raise ValueError("Probabilities must sum to 1")
-    except ValueError:
+        
+    except ValueError as e:
+        print(e)
         return False
     else:
         return True
@@ -46,7 +48,8 @@ def create_probabilities() -> dict:
             collecting = False
         else:
             outcomes.append(outcome)
-    # outcomes = list(set(outcomes)).sort(key= lambda x:x.lower()) # Remove duplicates
+    outcomes = list(set(outcomes)) # Remove duplicates
+    outcomes.sort() # Sort inplace
 
     probabilities = []
     odex = 0

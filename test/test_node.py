@@ -3,7 +3,6 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
 from node import *
-import random
 
 # Spinner to decide multiclassing
 test_probs_1 = {
@@ -25,7 +24,7 @@ test_probs_2 = {
 # Mapping for multiclassing outsomes
 test_mapping = {
     'outcome' : ['Monoclass','Multiclass'], 
-    'destination' : [None,Node(test_probs_2)] # Technically don't need to give the spinner probabilities, but I'm diagramming the end result
+    'destination' : [None,Node(Spinner(test_probs_2))] # Technically don't need to give the spinner probabilities, but I'm diagramming the end result
 }
 
 
