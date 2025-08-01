@@ -5,7 +5,7 @@ class Spinner:
     """
     Object which contains probabilities of outcomes that can "spin".
     """
-
+    
     def __init__(self, probs: dict = None) -> None:
         """
         Initiate Spinner object with a probability dictionary with defaults

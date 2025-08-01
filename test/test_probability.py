@@ -48,3 +48,11 @@ def test_check_good_probabilities():
         ]}
     
     assert check_probabilities(inputs) is True
+
+def test_equal_probabilities():
+    result = equal_probabilities(10)
+    expected = [0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1] # ten elements, all 0.1
+    lst = ['outcome']*10
+    check_probs_dict = {'outcome' : lst, 'probability' : result}
+    assert result == expected
+    assert check_probabilities(check_probs_dict)

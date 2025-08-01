@@ -73,3 +73,16 @@ def create_probabilities() -> dict:
     return {'outcome': outcomes, 'probability': probabilities}
 
 
+def equal_probabilities(n: int) -> list:
+    """
+    Returns a list of length n with all elements equal to 1/n
+    """
+    return [1/n] * n
+
+def input_probabilities(lst: list, probs: list) -> dict:
+    dct = {'outcome' : lst, 'probability' : probs}
+    try:
+        if check_probabilities(dct): return dct
+        else: raise Exception
+    except:
+        print("Invalid input(s)")

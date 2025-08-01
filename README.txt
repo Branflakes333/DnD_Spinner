@@ -7,7 +7,7 @@ This will explain the choice of probabiliteis used in the spinner.
 
 ### Goals
 
-1. Get a working layered RNG script with fixed probabilites.
+1. Get a working JSON data retrieval to backend outcome options data.
 2. Get a working layered RNG script with input parameters.
 3. Get a working spinner application.
 4. Get a working character creator implemented (Whole other project if I even get this far)
@@ -15,8 +15,7 @@ This will explain the choice of probabiliteis used in the spinner.
 ### Generative AI
 
 While I am doing this project for learning, I'm also doing it for fun, and to actually use. 
-I am strictly using ChatGPT for coding theory.
-I am also using Copilot to streamline the setup stage of this project. 
+I am roughly using ChatGPT for only coding theory and debugging, though there are moments Copilot is capped.
+I am also using Copilot to streamline the setup stage of this project, as well as debugging. 
 As I progress through the project, I am utilizing Copilot less and less.
-While "test_spinner.py" was initially coded be Copilot, 
-I intend to code the rest and future testers using Claude, or not genAI.
+I intend to use GenAI to help create more tests at some point.
