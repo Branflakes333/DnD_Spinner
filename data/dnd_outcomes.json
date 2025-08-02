@@ -1,67 +1,46 @@
 {
     "Lineages" : {
-        "Dragonborn" : [
-            {"Sublineage" : ["Black","Blue","Brass","Bronze","Copper","Gold","Green","Red","Silver","White"]}
-        ],
-        "Dwarf" : [
-            {"Sublineage" : ["Hill", "Mountain","Duergar"]}
-        ],
-        "Elf" : [
-            {"Sublineage" : ["Dark", "High", "Wood", "Pallid", "Astral", "Sea"]}
-        ],
-        "Gnome" : [
-            {"Sublineage" : ["Forest","Rock", "Deep"]}
-        ],
-        "Half-Elf" : [],
-        "Half-Orc" : [],
-        "Halfling" : [
-            {"Sublineage" : ["Lightfoot", "Stout"]}
-        ],
-        "Human" : [
-            {"Sublineage" : ["Non-variant","Variant"]}
-        ],
-        "Tiefling" : [
-            {"Sublineage" : ["Bloodline of Asmodeus", "Bloodline of Baalzebul" ,"Bloodline of Dispater" ,"Bloodline of Fierna" ,"Bloodline of Glasya" ,"Bloodline of Levistus" ,"Bloodline of Mammon" ,"Bloodline of Mephistopheles" ,"Bloodline of Zariel"]}
-        ],
-        "Aarakocra" : [],
-        "Aasimar" : [
-            {"Revelation" : ["Necrotic Shroud", "Radiant Consumption", "Radiant Soul"]}
-        ],
-        "Changeling" : [],
-        "Eladrin" : [
-            {"Season" : ["Autumn","Winter","Spring","Summer"]}
-        ],
-        "Fairy" : [],
-        "Firbolg" : [],
-        "Genasi" : [
-            {"Sublineage" : ["Air", "Earth", "Fire", "Water"]}
-        ],
-        "Githyanki" : [],
-        "Githzerai" : [],
-        "Goliath" : [],
-        "Harengon" : [],
-        "Kenku" : [],
-        "Locathah" : [],
-        "Owlin" : [],
-        "Satyr" : [],
-        "Shadar-Kai" : [],
-        "Tabaxi" : [],
-        "Tortle" : [],
-        "Triton" : [],
-        "Verdan" : [],
-        "Bugbear" : [],
-        "Centaur" : [],
-        "Goblin" : [],
-        "Grung" : [],
-        "Hobgoblin" : [],
-        "Kobold" : [],
-        "Lizardfolk" : [],
-        "Minotaur" : [],
-        "Orc" : [],
-        "Shifter" : [
-            {"Shifting" : ["Beasthide","Longtooth","Swiftstride","Wildhunt"]}
-        ],
-        "Yuan-Ti" : []
+        "Dragonborn" : 
+            {"Sublineage" : ["Black","Blue","Brass","Bronze","Copper","Gold","Green","Red","Silver","White"]},
+        "Dwarf" : {"Sublineage" : ["Hill", "Mountain","Duergar"]},
+        "Elf" : {"Sublineage" : ["Dark", "High", "Wood", "Pallid", "Astral", "Sea"]},
+        "Gnome" : {"Sublineage" : ["Forest","Rock", "Deep"]},
+        "Half-Elf" : {},
+        "Half-Orc" : {},
+        "Halfling" : {"Sublineage" : ["Lightfoot", "Stout"]},
+        "Human" : {"Sublineage" : ["Non-variant","Variant"]},
+        "Tiefling" : {"Sublineage" : ["Bloodline of Asmodeus", "Bloodline of Baalzebul" ,"Bloodline of Dispater" ,"Bloodline of Fierna" ,"Bloodline of Glasya" ,"Bloodline of Levistus" ,"Bloodline of Mammon" ,"Bloodline of Mephistopheles" ,"Bloodline of Zariel"]},
+        "Aarakocra" : {},
+        "Aasimar" : {"Sublineage" : ["Necrotic Shroud", "Radiant Consumption", "Radiant Soul"]},
+        "Changeling" : {},
+        "Eladrin" : {"Season" : ["Autumn","Winter","Spring","Summer"]},
+        "Fairy" : {},
+        "Firbolg" : {},
+        "Genasi" : {"Sublineage" : ["Air", "Earth", "Fire", "Water"]},
+        "Githyanki" : {},
+        "Githzerai" : {},
+        "Goliath" : {},
+        "Harengon" : {},
+        "Kenku" : {},
+        "Locathah" : {},
+        "Owlin" : {},
+        "Satyr" : {},
+        "Shadar-Kai" : {},
+        "Tabaxi" : {},
+        "Tortle" : {},
+        "Triton" : {},
+        "Verdan" : {},
+        "Bugbear" : {},
+        "Centaur" : {},
+        "Goblin" : {},
+        "Grung" : {},
+        "Hobgoblin" : {},
+        "Kobold" : {},
+        "Lizardfolk" : {},
+        "Minotaur" : {},
+        "Orc" : {},
+        "Shifter" : {"Shifting" : ["Beasthide","Longtooth","Swiftstride","Wildhunt"]},
+        "Yuan-Ti" : {}
     },
     "Backgrounds" : [
         "Acolyte",
@@ -113,319 +92,291 @@
         "Witchlight Hand"
     ],
     "Classes" : {
-        "Artificer" : [{"Subclass" : ["Alchemist","Armorer","Artillerist","Battle Smith"]}],
-        "Barbarian" : [{"Subclass" : ["Path of the Ancestral Guardian", "Path of the Battlerager", "Path of the Beast", "Path of the Berserker", "Path of the Giant", "Path of the Storm Herald", "Path of the Totem Warrior", "Path of Wild Magic", "Path of the Zealot"]}],
-        "Bard" : [{"Subclass" : ["College of Creation","College of Eloquence","College of Glamour","College of Lore","College of Spirits","College of Swords","College of Valor","College of Whispers"]}],
-        "Cleric" : [{"Subclass" : ["Arcana Domain","Death Domain","Forge Domain","Grave Domain","Knowledge Domain","Life Domain","Light Domain","Nature Domain","Order Domain","Peace Domain","Tempest Domain","Trickery Domain","Twilight Domain","War Domain"]}],
-        "Druid" : [{"Subclass" : ["Circle of Dreams","Circle of the Land","Circle of the Moon","Circle of the Shepherd","Circle of Spores","Circle of Stars","Circle of Wildfire"]}],
-        "Fighter" : [{"Subclass" : ["Arcane Archer","Banneret","Battle Master","Cavalier","Champion","Echo Knight","Eldritch Knight","Psi Warrior","Rune Knight","Samurai"]}],
-        "Monk" : [{"Subclass" : ["Way of Mercy","Way of the Ascendant Dragon","Way of the Astral Self","Way of the Drunken Master","Way of the Four Elements","Way of the Kensei","Way of the Long Death","Way of the Open Hand","Way of Shadow","Way of the Sun Soul"]}],
-        "Paladin" : [{"Subclass" : ["Oath of the Ancients","Oath of Conquest","Oath of the Crown","Oath of Devotion","Oath of Glory","Oath of Redemption","Oath of Vengeance","Oath of the Watchers","Oathbreaker"]}],
-        "Ranger" : [{"Subclass" : ["Beast Master Conclave","Drakewarden","Fey Wanderer","Gloom Stalker Conclave","Horizon Walker Conclave","Hunter Conclave","Monster Slayer Conclave","Swarmkeeper"]}],
-        "Rogue" : [{"Subclass" : ["Arcane Trickster","Assassin","Inquisitive","Mastermind","Phantom","Scout","Soulknife","Swashbuckler","Thief"]}],
-        "Sorcerer" : [{"Subclass" : ["Aberrant Mind","Clockwork Soul","Draconic Bloodline","Divine Soul","Lunar Sorcery","Shadow Magic","Storm Sorcery","Wild Magic"]}],
-        "Warlock" : [{"Subclass" : ["Archfey","Celestial","Fathomless","Fiend","The Genie","Great Old One","Hexblade","Undead","Undying"]}],
-        "Wizard" : [{"Subclass" : ["School of Abjuration","School of Bladesinging","School of Chronurgy","School of Conjuration","School of Divination","School of Enchantment","School of Evocation","School of Graviturgy","School of Illusion","School of Necromancy","Order of Scribes","School of Transmutation","School of War Magic"]}]
+        "Artificer" : {"Subclass" : ["Alchemist","Armorer","Artillerist","Battle Smith"]},
+        "Barbarian" : {"Subclass" : ["Path of the Ancestral Guardian", "Path of the Battlerager", "Path of the Beast", "Path of the Berserker", "Path of the Giant", "Path of the Storm Herald", "Path of the Totem Warrior", "Path of Wild Magic", "Path of the Zealot"]},
+        "Bard" : {"Subclass" : ["College of Creation","College of Eloquence","College of Glamour","College of Lore","College of Spirits","College of Swords","College of Valor","College of Whispers"]},
+        "Cleric" : {"Subclass" : ["Arcana Domain","Death Domain","Forge Domain","Grave Domain","Knowledge Domain","Life Domain","Light Domain","Nature Domain","Order Domain","Peace Domain","Tempest Domain","Trickery Domain","Twilight Domain","War Domain"]},
+        "Druid" : {"Subclass" : ["Circle of Dreams","Circle of the Land","Circle of the Moon","Circle of the Shepherd","Circle of Spores","Circle of Stars","Circle of Wildfire"]},
+        "Fighter" : {"Subclass" : ["Arcane Archer","Banneret","Battle Master","Cavalier","Champion","Echo Knight","Eldritch Knight","Psi Warrior","Rune Knight","Samurai"]},
+        "Monk" : {"Subclass" : ["Way of Mercy","Way of the Ascendant Dragon","Way of the Astral Self","Way of the Drunken Master","Way of the Four Elements","Way of the Kensei","Way of the Long Death","Way of the Open Hand","Way of Shadow","Way of the Sun Soul"]},
+        "Paladin" : {"Subclass" : ["Oath of the Ancients","Oath of Conquest","Oath of the Crown","Oath of Devotion","Oath of Glory","Oath of Redemption","Oath of Vengeance","Oath of the Watchers","Oathbreaker"]},
+        "Ranger" : {"Subclass" : ["Beast Master Conclave","Drakewarden","Fey Wanderer","Gloom Stalker Conclave","Horizon Walker Conclave","Hunter Conclave","Monster Slayer Conclave","Swarmkeeper"]},
+        "Rogue" : {"Subclass" : ["Arcane Trickster","Assassin","Inquisitive","Mastermind","Phantom","Scout","Soulknife","Swashbuckler","Thief"]},
+        "Sorcerer" : {"Subclass" : ["Aberrant Mind","Clockwork Soul","Draconic Bloodline","Divine Soul","Lunar Sorcery","Shadow Magic","Storm Sorcery","Wild Magic"]},
+        "Warlock" : {"Subclass" : ["Archfey","Celestial","Fathomless","Fiend","The Genie","Great Old One","Hexblade","Undead","Undying"]},
+        "Wizard" : {"Subclass" : ["School of Abjuration","School of Bladesinging","School of Chronurgy","School of Conjuration","School of Divination","School of Enchantment","School of Evocation","School of Graviturgy","School of Illusion","School of Necromancy","Order of Scribes","School of Transmutation","School of War Magic"]}
     },
     "Feats" : {
         "No Feat" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Aberrant Dragonmark" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Actor" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Alert" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Artificer Initiate" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Athlete" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Cartomancer" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Charger" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Chef" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Crossbow Expert" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Crusher" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Defensive Duelist" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Dual Wielder" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Dungeon Delver" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Durable" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Eldritch Adept" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Elemental Adept" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Ember of the Fire Giant" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Fey Touched" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Fighting Initiate" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Fury of the Frost Giant" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Gift of the Chromatic Dragon" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Gift of the Gem Dragon" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Gift of the Metallic Dragon" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Grappler" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Great Weapon Master" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Guile of the Cloud Giant" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Gunner" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Healer" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Heavily Armored" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Heavy Armor Master" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Inspiring Leader" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Keen Mind" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Keenness of the Stone Giant" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Lightly Armored" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Linguist" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Lucky" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Mage Slayer" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Magic Initiate" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Martial Adept" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Medium Armor Master" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Metamagic Adept" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Mobile" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Moderately Armored" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Mounted Combatant" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Observant" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Piercer" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Poisoner" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Polearm Master" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Resilient" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Ritual Caster" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Rune Shaper" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Savage Attacker" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Sentinel" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Shadow Touched" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Sharpshooter" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Shield Master" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Skill Expert" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Skilled" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Skulker" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Slasher" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Soul of the Storm Giant" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Spell Sniper" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Strike of the Giants" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Tavern Brawler" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Telekinetic" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Telepathic" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Tough" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Vigor of the Hill Giant" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "War Caster" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
         "Weapon Master" : {
-            "prerequisite" : []
+            "Prerequisite" : []
         },
 
         "Bountiful Luck" : {
-            "prerequisite" : [
-                {"Lineage" : "Halfling"}
-            ]
+            "Prerequisite" : ["Halfling"]
         },
         "Dragon Fear" : {
-            "prerequisite" : [
-                {"Lineage" : "Dragonborn"}
-            ]
+            "Prerequisite" : ["Dragonborn"]
         },
         "Dragon Hide" : {
-            "prerequisite" : [
-                {"Lineage" : "Dragonborn"}
-            ]
+            "Prerequisite" : ["Dragonborn"]
         },
         "Dwarven Fortitude" : {
-            "prerequisite" : [
-                {"Lineage" : "Dwarf"}
-            ]
+            "Prerequisite" : ["Dwarf"]
         },
         "Drow High Magic" : {
-            "prerequisite" : [
-                {"Lineage" : "Elf"}
-            ]
+            "Prerequisite" : ["Elf"]
         },
         "Elven Accuracy" : {
-            "prerequisite" : [
-                {"Lineage" : "Elf"}
-            ]
+            "Prerequisite" : ["Elf"]
         },
         "Fade Away" : {
-            "prerequisite" : [
-                {"Lineage" : "Gnome"}
-            ]
+            "Prerequisite" : ["Gnome"]
         },
         "Fey Teleportation" : {
-            "prerequisite" : [
-                {"Lineage" : "Elf", "Sublineage" : "High"}
-            ]
+            "Prerequisite" : ["Elf", "High"]
         },
         "Flames of Phlegethos" : {
-            "prerequisite" : [
-                {"Lineage" : "Tiefling"}
-            ]
+            "Prerequisite" : ["Tiefling"]
         },
         "Infernal Constitution" : {
-            "prerequisite" : [
-                {"Lineage" : "Tiefling"}
-            ]
+            "Prerequisite" : ["Tiefling"]
         },
         "Orcish Fury" : {
-            "prerequisite" : [
-                {"Lineage" : ["Half-Orc", "Orc"]}
-            ]
+            "Prerequisite" : ["Half-Orc", "Orc"]
         },
         "Prodigy" : {
-            "prerequisite" : [
-                {"Lineage" : ["Half-Elf","Half-Orc","Human"]}
-                ]
+            "Prerequisite" : ["Half-Elf","Half-Orc","Human"]
         },
         "Revenant Blade" : {
-            "prerequisite" : [
-                {"Lineage" : "Elf"}
-            ]
+            "Prerequisite" : ["Elf"]
         },
         "Second Chance" : {
-            "prerequisite" : [
-                {"Lineage" : "Halfling"}
-            ]
+            "Prerequisite" : ["Halfling"]
         },
         "Squat Nimbleness" : {
-            "prerequisite" : [
-                {"Lineage" : ["Dwarf", "Halfling", "Gnome", "Goblin"]}
-            ]
+            "Prerequisite" : ["Dwarf", "Halfling", "Gnome", "Goblin"]
         },
         "Svirfneblin Magic" : {
-            "prerequisite" : [
-                {"Lineage" : "Gnome", "Sublineage" : "Deep"}
-            ]
+            "Prerequisite" : ["Gnome", "Deep"]
         },
         "Wood Elf Magic" : {
-            "prerequisite" : [
-                {"Lineage" : "Elf", "Sublineage" : "Wood"}
-            ]
+            "Prerequisite" : ["Elf", "Wood"]
         }
+    },
+    "Mappings" : {
+        "Lineages" : "Sublineage",
+        "Backgrounds" : "Feat",
+        "Classes" : "Subclass",
+        "Feats" : "Prerequisite"
     }
 }
