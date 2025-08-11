@@ -373,10 +373,16 @@
             "Prerequisite" : ["Elf", "Wood"]
         }
     },
+    "Alignment" : [
+        "Lawful Good", "Neutral Good", "Chaotic Good",
+        "Lawful Neutral", "True Neutral", "Chaotic Neutral",
+        "Lawful Evil", "Neutral Evil", "Chaotic Evil"
+    ],
     "Mappings" : {
         "Lineages" : "Sublineage",
         "Backgrounds" : "Feat",
         "Classes" : "Subclass",
-        "Feats" : "Prerequisite"
+        "Feats" : "Prerequisite",
+        "Alignment" : null
     }
 }
